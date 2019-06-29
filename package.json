@@ -1,0 +1,23 @@
+{
+  "name": "indie-rss",
+  "version": "1.0.0",
+  "description": "Personal newsfeed generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuanqisun/indie-rss.git"
+  },
+  "keywords": [
+    "rss",
+    "static site generator"
+  ],
+  "author": "Chuanqi Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chuanqisun/feedme/issues"
+  },
+  "homepage": "https://github.com/chuanqisun/feedme#readme"
+}
