@@ -22,7 +22,7 @@ async function retryPromise(func, retry) {
 }
 
 (async () => {
-  const configFilePath = path.join(process.cwd(), "indie-rss.json");
+  const configFilePath = path.join(process.cwd(), "indie-feed.json");
   const config = require(configFilePath);
   const urls = config.feeds.map(sub => sub.url);
   const feedsPromise = urls.map(url =>
