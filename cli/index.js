@@ -29,7 +29,7 @@ async function retryPromise(func, retry) {
 
   const feeds = await Promise.all(feedsPromise);
 
-  console.dir(feeds);
+  // console.dir(feeds);
 
   const data = {
     feeds
