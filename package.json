@@ -21,7 +21,8 @@
     "url": "https://github.com/chuanqisun/feedme/issues"
   },
   "homepage": "https://github.com/chuanqisun/feedme#readme",
-  "devDependencies": {
+  "dependencies": {
+    "nunjucks": "^3.2.0",
     "rss-parser": "^3.7.1"
   }
 }

@@ -1,0 +1,8 @@
+<h1>{{ feed.title }}</h1>
+<ul>
+  {% for item in feed.items %}
+    <li>
+      {% include "item.njk" %}
+    </li>
+  {% endfor %}
+</ul>
