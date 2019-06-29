@@ -37,7 +37,7 @@ async function retryPromise(func, retry) {
     feeds
   };
 
-  const res = env.render("page.njk", data);
+  const res = env.render("index.njk", data);
 
   const distDir = path.join(process.cwd(), "dist");
   if (!fs.existsSync(distDir)) {
