@@ -1,7 +1,7 @@
 {
   "name": "indie-rss",
   "version": "1.0.0",
-  "description": "Personal newsfeed generator",
+  "description": "Personal news feed generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,12 +12,16 @@
   },
   "keywords": [
     "rss",
-    "static site generator"
+    "static site generator",
+    "indieweb"
   ],
   "author": "Chuanqi Sun",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chuanqisun/feedme/issues"
   },
-  "homepage": "https://github.com/chuanqisun/feedme#readme"
+  "homepage": "https://github.com/chuanqisun/feedme#readme",
+  "devDependencies": {
+    "rss-parser": "^3.7.1"
+  }
 }
