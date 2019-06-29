@@ -1,5 +1,5 @@
 {
-  "name": "indie-rss",
+  "name": "@indie-feed/cli",
   "version": "1.0.0",
   "description": "Personal news feed generator",
   "main": "index.js",
@@ -8,19 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chuanqisun/indie-rss.git"
+    "url": "git+https://github.com/chuanqisun/indie-feed.git"
   },
   "keywords": [
     "rss",
     "static site generator",
-    "indieweb"
+    "indieweb",
+    "feed"
   ],
   "author": "Chuanqi Sun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chuanqisun/feedme/issues"
+    "url": "https://github.com/chuanqisun/indie-feed/issues"
   },
-  "homepage": "https://github.com/chuanqisun/feedme#readme",
+  "homepage": "https://github.com/chuanqisun/indie-feed#readme",
   "dependencies": {
     "nunjucks": "^3.2.0",
     "rss-parser": "^3.7.1"
