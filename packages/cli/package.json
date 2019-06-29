@@ -9,7 +9,7 @@
   "bin": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chuanqisun/indie-feed-cli.git"
+    "url": "git+https://github.com/chuanqisun/indie-feed.git"
   },
   "keywords": [
     "rss",
@@ -20,9 +20,9 @@
   "author": "Chuanqi Sun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chuanqisun/indie-feed-cli/issues"
+    "url": "https://github.com/chuanqisun/indie-feed/issues"
   },
-  "homepage": "https://github.com/chuanqisun/indie-feed-cli#readme",
+  "homepage": "https://github.com/chuanqisun/indie-feed#readme",
   "dependencies": {
     "nunjucks": "^3.2.0",
     "rss-parser": "^3.7.1"
